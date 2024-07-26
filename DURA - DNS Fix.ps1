@@ -1,4 +1,4 @@
-$servers = Get-Content -Path D:\Scripts\ServerDNS\FixServers.csvb
+$servers = Get-Content -Path D:\Scripts\ServerDNS\FixServers.csv
 
 ##### Define Subnets #####
 $AARsub = @("10.50.50.","10.160.47.","143.39.203.","155.128.141.")
